@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .header img {
+    width: 40px;
+    height: 40px;
+  }
+  

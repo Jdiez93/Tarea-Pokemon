@@ -1,0 +1,22 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 38px; /* Ajusta el margen superior según tus necesidades */
+  }
+  
+  .copyright {
+    font-size: 14px;
+  }
+  
+  .social-links a {
+    margin: 0 10px;
+  }
+  
+  .social-links img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  

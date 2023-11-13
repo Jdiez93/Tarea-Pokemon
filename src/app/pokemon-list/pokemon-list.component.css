@@ -1,0 +1,47 @@
+.pokemon-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas con tamaño igual */
+  gap: 20px; /* Espacio entre tarjetas */
+  justify-content: center; /* Centra las tarjetas horizontalmente */
+}
+
+.pokemon-card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 10px;
+  width: 200px;
+  /* Resto de estilos... */
+}
+
+  
+  .pokemon-image img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .pokemon-details {
+    margin-top: 10px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+  }
+  
+  p {
+    font-size: 16px;
+    margin: 0;
+    color: #777;
+  }
+  
+  /* Estilos para el tipo de Pokémon */
+  .pokemon-type {
+    font-weight: bold;
+    color: #ff6347; /* Rojo anaranjado */
+    margin-top: 5px;
+  }
+  

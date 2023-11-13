@@ -1,0 +1,14 @@
+<div class="pokemon-list">
+    <div *ngFor="let pokemon of pokemonList" class="pokemon-card">
+        <div class="pokemon-image">
+            <img [src]="'assets/' + pokemon.image" alt="{{ pokemon.name }}">
+          </div>
+          
+      <div class="pokemon-details">
+        <h3>{{ pokemon.name }}</h3>
+        <p>Tipo: {{ pokemon.type }}</p>
+        <p>Peso: {{pokemon.Peso}}</p>
+      </div>
+    </div>
+  </div>
+  
